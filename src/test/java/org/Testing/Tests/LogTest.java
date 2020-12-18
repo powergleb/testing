@@ -55,7 +55,7 @@ public class LogTest {
         logPage.inputPasswd(ReadingProperties.getProperty("password"));
         Thread.sleep(10000);
         logPage.clickLoginBtn();
-        Assert.assertEquals("Евгений", profilePage.getUserName());
+        Assert.assertEquals("Глеб", profilePage.getUserName());
     }
     @AfterClass
     public void tearDown() {
